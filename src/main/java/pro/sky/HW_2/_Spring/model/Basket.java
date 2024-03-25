@@ -5,7 +5,7 @@ import org.springframework.web.context.annotation.SessionScope;
 
 import java.util.*;
 @Component
-//@SessionScope
+@SessionScope
 public class Basket {
     private final Set<Integer> ids = new HashSet<>();
 
